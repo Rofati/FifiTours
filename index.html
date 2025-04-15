@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FifiTours</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
+200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    </head>
+   <body>
+       <section class="header">
+           <nav>
+                   <h2 class="logo">FifiTours</h2>
+               </div>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="Home">Home</a></li>
+                       <li><a href="Destination">Destinations</a></li>
+                       <li><a href="Packages">Packages</a></li>
+                       <li><a href="Corporates">Corporates</a></li>
+                       <li><a href="Local Packages">Local Packages</a></li>
+                       <li><a href="Blog">Blog</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+           </div>
+           <div class="text-box">
+               <h1><span>Kenya's Top Destinations Choice</span></h1>
+               <p class="par">Explore the stunning landscapes and diverse wildlife of Kenya,
+                   from national reserve safaris to traditional Swahili culture.
+                   <br />Immerse yourself in the unique experiences this destination has to offer.
+               </p>
+               <a href="" class="hero-btn">Click Here To Learn More</a>
+           </div>
+       </div>
+       </section>
+
+       <!-------JavaScript for Toggle Menu------->
+       <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+       </script>
+   </body>
+</html>
