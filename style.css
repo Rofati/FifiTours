@@ -295,3 +295,34 @@ h3{
     bottom: 49%;
     opacity: 1;
 } 
+
+/*-----------Offer Packages---------*/
+.Opackages{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.Opackages-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+.Opackages-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Opackages-col p{
+    padding: 0;
+
+}
+.Opackages-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
