@@ -113,11 +113,10 @@ p{
     letter-spacing: 1px;
 }
 
-.content p {
-    font-size: 18px;
-    padding-left: 20px;
-    margin-top: 2%;
-    letter-spacing: 2px;
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
     
 }
 
@@ -205,4 +204,19 @@ p{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booksafari-col{
+    flex-basis: 31%;
+    background: #E49527;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
 }
