@@ -318,11 +318,12 @@ h3{
 
 .Opackages-col p{
     padding: 0;
+    text-align: center;
 
 }
 .Opackages-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
-
+    color: #E49527;
 }
